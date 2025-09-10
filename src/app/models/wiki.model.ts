@@ -19,7 +19,6 @@ export interface WikiPageResponse {
   batchcomplete: string;
   query: {
     pages: {
-      // This is the index signature 👇
       [pageId: string]: WikiPage; 
     };
   };
